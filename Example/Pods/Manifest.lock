@@ -1,6 +1,6 @@
 PODS:
-  - FERBase (1.0.1):
-    - Masonry
+  - FERBase (1.0.2):
+    - Masonry (= 1.1.0)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FERBase: d1f393f447df1da582e54e84c25e6b1df2c903f5
+  FERBase: 5df1e07304cb4179d2546e10b36f35e1bf2a62cd
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 1f69149b692b269250a90a68ea75f54920831a1a

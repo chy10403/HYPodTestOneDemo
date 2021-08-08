@@ -1,6 +1,6 @@
 {
   "name": "FERBase",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "A test project of FERBase.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/chy10403/HYPodTestOneDemo",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/chy10403/HYPodTestOneDemo.git",
-    "tag": "1.0.1"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,7 +21,7 @@
   "source_files": "FERBase/Classes/**/*",
   "dependencies": {
     "Masonry": [
-
+      "1.1.0"
     ]
   }
 }
