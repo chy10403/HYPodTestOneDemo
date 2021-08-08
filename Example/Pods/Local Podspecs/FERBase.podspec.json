@@ -1,0 +1,22 @@
+{
+  "name": "FERBase",
+  "version": "0.1.0",
+  "summary": "A short description of FERBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/caihaiyang2/FERBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "caihaiyang2": "caihaiyang2@gome.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/caihaiyang2/FERBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FERBase/Classes/**/*"
+}
