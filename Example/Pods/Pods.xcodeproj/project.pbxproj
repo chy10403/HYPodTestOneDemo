@@ -7,27 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02CFAD25BDFB1CCC9FE37FCF69252F73 /* FERBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DA86DBA651B4F4470ADB55D5CAB558 /* FERBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B5FDC17E0EEA7AB498C0DC8AAD7F7C9 /* Pods-FERBase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFBEAF67ED7665113D7A3CADF511C0D /* Pods-FERBase_Example-dummy.m */; };
-		28708E34068E440ECF5060578BA49DCC /* Pods-FERBase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C8DC622C4CD8137DF851B771772659 /* Pods-FERBase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0200C2F9F2BBF8674C8A2C88AB2371CF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0D7D7EF907D61E1FC5477DDC5D0F5A5F /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14677D6232575006AE7E98F3A692CA46 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
+		2424A8B08D191DEDDC90A8D07617244A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		2552547AFEC118B32A30BB7E3477E44F /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		28DC8D7539FBADB114603E6358CB724D /* UtilTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D143ACA426E71368D2A28A0B51B615C /* UtilTool.m */; };
+		3CA77982AB1A29BF1156F40F25C312B4 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4412391241B6CA28F15E6A60D7F74138 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44D6F9238E5B8F30035657711C261269 /* ViewButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B7557082CA32C0FA1936E5A2A22BA9CC /* ViewButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E5357AD005EFE822B85F417DA0FB7A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A5151F1EC3F3D16092CBF2C7C5186A0 /* FERBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D76C77B742D7FD0685F55916488B72CA /* FERBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51C272D04A0EDAED0D49C53289107546 /* Pods-FERBase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D72534FD954CB77DBE2B7D738C1461AE /* Pods-FERBase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52258EA2370C15C2D046D82A52E5B852 /* FERBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA05BE92EA676A1182162CA5B6A1863 /* FERBase-dummy.m */; };
-		55FDFA482D350B59E3EC94B4826E4C4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		75B7E22CD5583B3521ADE5C8ADEC6D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7AB8789426BFB0EC002C8FEB /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 7AB8789326BFB0EC002C8FEB /* Classes */; };
-		8F2C2B5141BD00B45192B0A99283A4B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		57E572B02E36678DBA33861737E67828 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
+		620942ACC8563EABF6A74145EDE7197D /* Pods-FERBase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFBEAF67ED7665113D7A3CADF511C0D /* Pods-FERBase_Example-dummy.m */; };
+		7086C396E4392A23FD5763D7F012D72C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		72619E3B67878B53251DAB3399EC5A5F /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C61C9F6ED54FFD8A9602491C281A764 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
+		84212B8D3465AA5B1E0FB381FCD50C11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
+		89498127BCD8268D39FBB7B7C7FBC17F /* Pods-FERBase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C8DC622C4CD8137DF851B771772659 /* Pods-FERBase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F2C2B5141BD00B45192B0A99283A4B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
+		943F723DB592089D68B59551FD597C42 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		9CEB4B2D8D17EC16099F93D2229F7A9C /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A004BCC6A2D2E12A32E02844A8AA5A38 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A19BA13B970661F24B01E6B7904BA7C9 /* Pods-FERBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A086F685275686E56B5F4D3BE4937CA /* Pods-FERBase_Tests-dummy.m */; };
+		A73C715A36D66600CEAF00950BB9B595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
+		A860461556BA3E59AEDFD77F009A7B48 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8E06D29B8C7B421A2001DC001C8CA26 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
+		A965004AF5B08A548576B12435ABE1FF /* ViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6E6BB4FBFFA4C875B4B9DC43AC4C0F /* ViewButton.m */; };
+		AB900C8DFD60B66A5D2DC6E97A6EC670 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		ABFF55FDA1049671714DD2DC4A2B53E8 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B22CAEC890B236B2D3608DD1A07D3D06 /* FERBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC59459CFC87595197456BDB12D39A14 /* FERBase-dummy.m */; };
+		B55D9A636EDC6790891DE74374E0BC2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
+		B67721D368757DCDEBF4DA73B7ED3F4C /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFDC2B78540DBFD01908942BE2A3DADA /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9A487530117AE0D9C5E382FCBFB93E5 /* UtilTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2008CBBCD1AE09C03CD67F800B6FDC33 /* UtilTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB7597E0988F7DDE4E7168A97CC7BD55 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
+		CEF451630FF8C4EC61F7293641075D76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CF773651727D50CDFC96D527CE18A6 /* UIKit.framework */; };
+		DBF938BADE399F51C7922938D4438ADE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
+		E374361DECBF29EF39973E91CC953F43 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7E8A7E6C5FB3A6A778C9DF49935EACE /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F292E1F6DE8D7F838A1756E80B419ACF /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B25F21AA79DC9D1F07053232A9618D /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9686D7C467F0ED5E25FEAAFAE5B7F53 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		012446B1BE33F550F307B6C9922F657C /* PBXContainerItemProxy */ = {
+		850BCC3EC7F66623578B326D7AE190BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 73054DB8EB4426728E4EB149B8EC3705;
 			remoteInfo = FERBase;
 		};
-		A1D71ABA801420D673DA6CAEF29A5D55 /* PBXContainerItemProxy */ = {
+		9BC8FB5B61AEA0EEBB3AADE11AC61636 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		9F010B09FBC6305E0D01FACC3C1ED896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		CEFE6B80B00AD78279D5DF3DDBE9E897 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,42 +84,89 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01DA86DBA651B4F4470ADB55D5CAB558 /* FERBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FERBase-umbrella.h"; sourceTree = "<group>"; };
-		07C15A4CA7CA537B56CF627079B83AC2 /* FERBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FERBase.release.xcconfig; sourceTree = "<group>"; };
+		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		07E58E7494B2D29A72964EEEEA0647D1 /* FERBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FERBase-prefix.pch"; sourceTree = "<group>"; };
 		0F7E96950E108EEFC4C1D67DC5D74A64 /* Pods-FERBase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FERBase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		12A81C72DA4088FA7EB22D2F1CA73E28 /* Pods-FERBase_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FERBase_Example-frameworks.sh"; sourceTree = "<group>"; };
+		12C2C12708E656457B7FF7342FA061CE /* FERBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FERBase.debug.xcconfig; sourceTree = "<group>"; };
 		17533573BD75525A8D7B41CDC54D2E6D /* Pods-FERBase_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FERBase_Tests-Info.plist"; sourceTree = "<group>"; };
+		1D143ACA426E71368D2A28A0B51B615C /* UtilTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UtilTool.m; path = FERBase/Classes/UtilTool.m; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2008CBBCD1AE09C03CD67F800B6FDC33 /* UtilTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UtilTool.h; path = FERBase/Classes/UtilTool.h; sourceTree = "<group>"; };
+		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		2EE6AED403C6EF6694377E7F35B3C584 /* Pods-FERBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FERBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		377FA04F4F45DE37CB97DAAC8BCDF157 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		382AF7F36BC9CE400FD111479411348A /* Pods_FERBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FERBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		463D88C8A0F87F9703C7A6B0CDE2A665 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		49167506983EB934342FBC009F14A6AD /* FERBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FERBase.modulemap; sourceTree = "<group>"; };
-		5A16E8E5C882807A061B957188D58F2F /* Pods_FERBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FERBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		382AF7F36BC9CE400FD111479411348A /* Pods_FERBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FERBase_Tests.framework; path = "Pods-FERBase_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		54FA74FF204D7B1B194ACE95D6D2762C /* FERBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FERBase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		5A16E8E5C882807A061B957188D58F2F /* Pods_FERBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FERBase_Example.framework; path = "Pods-FERBase_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		62114968326538E170C4E072E58D9A30 /* FERBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FERBase.release.xcconfig; sourceTree = "<group>"; };
 		6A086F685275686E56B5F4D3BE4937CA /* Pods-FERBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FERBase_Tests-dummy.m"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7AB8789326BFB0EC002C8FEB /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = FERBase/Classes; sourceTree = "<group>"; };
+		6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		77DB781AA489A590D2C9F99B097A0C8D /* FERBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FERBase.modulemap; sourceTree = "<group>"; };
+		7D6E6BB4FBFFA4C875B4B9DC43AC4C0F /* ViewButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ViewButton.m; path = FERBase/Classes/ViewButton.m; sourceTree = "<group>"; };
+		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		8D58A79468FA07D557B8DD8EA705969B /* Pods-FERBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FERBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		94C0CF42BD5AA6B4CE3CC8E98279A039 /* Pods-FERBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FERBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9C20F5B249103A8B83400E0F4C9DDD94 /* Pods-FERBase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FERBase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A32A33D35842FDAA5AF21D55F2EE9070 /* FERBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FERBase-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		ACC89E7385702EA1CA41F93F10FAE1A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		B05ED084F119D5BDA89CC5E179C5EB11 /* Pods-FERBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FERBase_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B2606370C64AAD6AC20A9E9FBE621ECD /* Pods-FERBase_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FERBase_Example-Info.plist"; sourceTree = "<group>"; };
+		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		B6C8DC622C4CD8137DF851B771772659 /* Pods-FERBase_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FERBase_Example-umbrella.h"; sourceTree = "<group>"; };
+		B7557082CA32C0FA1936E5A2A22BA9CC /* ViewButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewButton.h; path = FERBase/Classes/ViewButton.h; sourceTree = "<group>"; };
+		BA00E1DB8A3A777E7B2E511F9E50ABA4 /* FERBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FERBase-Info.plist"; sourceTree = "<group>"; };
 		BBCE91D9E4002BB7178C0133A0940821 /* Pods-FERBase_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FERBase_Example.modulemap"; sourceTree = "<group>"; };
+		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		C5DBB3DF3405F0C3631EF06E05A7F28D /* Pods-FERBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FERBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CAA05BE92EA676A1182162CA5B6A1863 /* FERBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FERBase-dummy.m"; sourceTree = "<group>"; };
 		CD219DAA3E8BC91858EE755B92EF6DF0 /* Pods-FERBase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FERBase_Tests.modulemap"; sourceTree = "<group>"; };
+		CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		D617E133DA6A20FFDC718F67B0CD2AC0 /* Pods-FERBase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FERBase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6339B7356ACB9EBA05C52BDFD27DC2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D72534FD954CB77DBE2B7D738C1461AE /* Pods-FERBase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FERBase_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D76C77B742D7FD0685F55916488B72CA /* FERBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FERBase-umbrella.h"; sourceTree = "<group>"; };
 		DEFBEAF67ED7665113D7A3CADF511C0D /* Pods-FERBase_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FERBase_Example-dummy.m"; sourceTree = "<group>"; };
-		EB1BB8922DA34FA51E27BE13A6C77EB6 /* FERBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FERBase-Info.plist"; sourceTree = "<group>"; };
-		EF46B148F2FD39B4F91897C00DB633C6 /* FERBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FERBase.debug.xcconfig; sourceTree = "<group>"; };
-		F835F1E93614D492D981D32CD1B7993A /* FERBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FERBase.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		FD2850F77ABFA85B90FDE039A7389E6E /* FERBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FERBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EC59459CFC87595197456BDB12D39A14 /* FERBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FERBase-dummy.m"; sourceTree = "<group>"; };
+		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		F3CF773651727D50CDFC96D527CE18A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FD2850F77ABFA85B90FDE039A7389E6E /* FERBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FERBase.framework; path = FERBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		266ACCF80C7D4D2E9B85542E8B383146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73C715A36D66600CEAF00950BB9B595 /* Foundation.framework in Frameworks */,
+				CEF451630FF8C4EC61F7293641075D76 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4878D3A8D99A0229CCC20CC040144882 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,25 +175,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		785F9B612F0D4F03041DDE14708ADC8F /* Frameworks */ = {
+		84FCD4D1C4B383D2FEA32A443DA2B49F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55FDFA482D350B59E3EC94B4826E4C4E /* Foundation.framework in Frameworks */,
+				B55D9A636EDC6790891DE74374E0BC2C /* Foundation.framework in Frameworks */,
+				A8E06D29B8C7B421A2001DC001C8CA26 /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A886F7B6FB3AF0F747DE5FDF78E6EE1A /* Frameworks */ = {
+		C02CB5E401718DF073E5E3A4826BB22F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75B7E22CD5583B3521ADE5C8ADEC6D0A /* Foundation.framework in Frameworks */,
+				84212B8D3465AA5B1E0FB381FCD50C11 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CCC0CD98AB951949302B433AFE762AD /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */,
+				EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */,
+				02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */,
+				9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */,
+				837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */,
+				B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */,
+				470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */,
+				6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */,
+				6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */,
+				EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */,
+				607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */,
+				A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */,
+				A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */,
+				D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */,
+				72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */,
+				30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */,
+				8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */,
+				27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */,
+				E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */,
+				047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */,
+				AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */,
+				86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */,
+				55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */,
+				342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */,
+				C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 		2F28666CB1848BA8BF01D9561CC79404 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +236,43 @@
 				443D75F1D6D807D06F4145E8C48D619C /* Pods-FERBase_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A00C70CAE8CFB11490305BCB0A7B8A6 /* FERBase */ = {
+			isa = PBXGroup;
+			children = (
+				2008CBBCD1AE09C03CD67F800B6FDC33 /* UtilTool.h */,
+				1D143ACA426E71368D2A28A0B51B615C /* UtilTool.m */,
+				B7557082CA32C0FA1936E5A2A22BA9CC /* ViewButton.h */,
+				7D6E6BB4FBFFA4C875B4B9DC43AC4C0F /* ViewButton.m */,
+				AB6772923BBEA0A0A79A162F26CC5C54 /* Pod */,
+				3D56D2E6F07770B2484CED39CB089A48 /* Support Files */,
+			);
+			name = FERBase;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3D56D2E6F07770B2484CED39CB089A48 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77DB781AA489A590D2C9F99B097A0C8D /* FERBase.modulemap */,
+				EC59459CFC87595197456BDB12D39A14 /* FERBase-dummy.m */,
+				BA00E1DB8A3A777E7B2E511F9E50ABA4 /* FERBase-Info.plist */,
+				07E58E7494B2D29A72964EEEEA0647D1 /* FERBase-prefix.pch */,
+				D76C77B742D7FD0685F55916488B72CA /* FERBase-umbrella.h */,
+				12C2C12708E656457B7FF7342FA061CE /* FERBase.debug.xcconfig */,
+				62114968326538E170C4E072E58D9A30 /* FERBase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FERBase";
+			sourceTree = "<group>";
+		};
+		3DFA34E74B97570202871F59D9C9E55E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A00C70CAE8CFB11490305BCB0A7B8A6 /* FERBase */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		443D75F1D6D807D06F4145E8C48D619C /* Pods-FERBase_Tests */ = {
@@ -125,60 +291,69 @@
 			path = "Target Support Files/Pods-FERBase_Tests";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		4C690AE9B909FF63841736D8B5990B35 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				FD2850F77ABFA85B90FDE039A7389E6E /* FERBase.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				5A16E8E5C882807A061B957188D58F2F /* Pods_FERBase_Example.framework */,
+				382AF7F36BC9CE400FD111479411348A /* Pods_FERBase_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC0CD98AB951949302B433AFE762AD /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B9B1AC85CD951F73580B2776B7EA31B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */,
+				F3CF773651727D50CDFC96D527CE18A6 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7BDF65AD9C2CAFCBA753CC15C986C09D /* Development Pods */ = {
+		AB6772923BBEA0A0A79A162F26CC5C54 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7F5DE2887FEF7EE7FAC56F521607E1D6 /* FERBase */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7C28EAA95A4DC202DA9150EABD805649 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F835F1E93614D492D981D32CD1B7993A /* FERBase.podspec */,
-				463D88C8A0F87F9703C7A6B0CDE2A665 /* LICENSE */,
-				377FA04F4F45DE37CB97DAAC8BCDF157 /* README.md */,
+				54FA74FF204D7B1B194ACE95D6D2762C /* FERBase.podspec */,
+				D6339B7356ACB9EBA05C52BDFD27DC2E /* LICENSE */,
+				ACC89E7385702EA1CA41F93F10FAE1A4 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		7F5DE2887FEF7EE7FAC56F521607E1D6 /* FERBase */ = {
+		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7AB8789326BFB0EC002C8FEB /* Classes */,
-				7C28EAA95A4DC202DA9150EABD805649 /* Pod */,
-				F47E5CA7D25457A0CFA51E35D922C7F1 /* Support Files */,
+				3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */,
+				A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */,
+				DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */,
+				BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */,
+				6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */,
+				F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */,
+				419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */,
 			);
-			name = FERBase;
-			path = ../..;
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7BDF65AD9C2CAFCBA753CC15C986C09D /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				EAA38A851482644CB5D6E15B9C29C513 /* Products */,
+				3DFA34E74B97570202871F59D9C9E55E /* Development Pods */,
+				DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				4C690AE9B909FF63841736D8B5990B35 /* Products */,
 				2F28666CB1848BA8BF01D9561CC79404 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DA3E10EA345CB2B6D9D3AE42AB70E42F /* Pods-FERBase_Example */ = {
@@ -198,39 +373,56 @@
 			path = "Target Support Files/Pods-FERBase_Example";
 			sourceTree = "<group>";
 		};
-		EAA38A851482644CB5D6E15B9C29C513 /* Products */ = {
+		DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FD2850F77ABFA85B90FDE039A7389E6E /* FERBase.framework */,
-				5A16E8E5C882807A061B957188D58F2F /* Pods_FERBase_Example.framework */,
-				382AF7F36BC9CE400FD111479411348A /* Pods_FERBase_Tests.framework */,
+				6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */,
+				8B9B1AC85CD951F73580B2776B7EA31B /* iOS */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F47E5CA7D25457A0CFA51E35D922C7F1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				49167506983EB934342FBC009F14A6AD /* FERBase.modulemap */,
-				CAA05BE92EA676A1182162CA5B6A1863 /* FERBase-dummy.m */,
-				EB1BB8922DA34FA51E27BE13A6C77EB6 /* FERBase-Info.plist */,
-				A32A33D35842FDAA5AF21D55F2EE9070 /* FERBase-prefix.pch */,
-				01DA86DBA651B4F4470ADB55D5CAB558 /* FERBase-umbrella.h */,
-				EF46B148F2FD39B4F91897C00DB633C6 /* FERBase.debug.xcconfig */,
-				07C15A4CA7CA537B56CF627079B83AC2 /* FERBase.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FERBase";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C466935A2A65D4EED1703461141138E5 /* Headers */ = {
+		0819D1853550B72A951C7A9CF693C4BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02CFAD25BDFB1CCC9FE37FCF69252F73 /* FERBase-umbrella.h in Headers */,
+				89498127BCD8268D39FBB7B7C7FBC17F /* Pods-FERBase_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348918BECDA6F1F22238FC43332B598A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7D7EF907D61E1FC5477DDC5D0F5A5F /* MASCompositeConstraint.h in Headers */,
+				3CA77982AB1A29BF1156F40F25C312B4 /* MASConstraint+Private.h in Headers */,
+				F292E1F6DE8D7F838A1756E80B419ACF /* MASConstraint.h in Headers */,
+				72619E3B67878B53251DAB3399EC5A5F /* MASConstraintMaker.h in Headers */,
+				B67721D368757DCDEBF4DA73B7ED3F4C /* MASLayoutConstraint.h in Headers */,
+				E7E8A7E6C5FB3A6A778C9DF49935EACE /* Masonry-umbrella.h in Headers */,
+				A004BCC6A2D2E12A32E02844A8AA5A38 /* Masonry.h in Headers */,
+				9CEB4B2D8D17EC16099F93D2229F7A9C /* MASUtilities.h in Headers */,
+				A860461556BA3E59AEDFD77F009A7B48 /* MASViewAttribute.h in Headers */,
+				ABFF55FDA1049671714DD2DC4A2B53E8 /* MASViewConstraint.h in Headers */,
+				4412391241B6CA28F15E6A60D7F74138 /* NSArray+MASAdditions.h in Headers */,
+				F2B25F21AA79DC9D1F07053232A9618D /* NSArray+MASShorthandAdditions.h in Headers */,
+				49E5357AD005EFE822B85F417DA0FB7A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				BFDC2B78540DBFD01908942BE2A3DADA /* View+MASAdditions.h in Headers */,
+				F9686D7C467F0ED5E25FEAAFAE5B7F53 /* View+MASShorthandAdditions.h in Headers */,
+				E374361DECBF29EF39973E91CC953F43 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E918566D1614FD33B6FA72CEDEDACB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5151F1EC3F3D16092CBF2C7C5186A0 /* FERBase-umbrella.h in Headers */,
+				C9A487530117AE0D9C5E382FCBFB93E5 /* UtilTool.h in Headers */,
+				44D6F9238E5B8F30035657711C261269 /* ViewButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,29 +434,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0EDEB050449BD7A296945D9318B30DE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28708E34068E440ECF5060578BA49DCC /* Pods-FERBase_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		73054DB8EB4426728E4EB149B8EC3705 /* FERBase */ = {
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 405C7FD9043A15949E3AC8A482615A6E /* Build configuration list for PBXNativeTarget "FERBase" */;
+			buildConfigurationList = 3F02D209ECECA442A04E04443A4183C0 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				C466935A2A65D4EED1703461141138E5 /* Headers */,
-				9BE83A1CFA06CF158BB8124B6E50FC43 /* Sources */,
-				A886F7B6FB3AF0F747DE5FDF78E6EE1A /* Frameworks */,
-				9F760C3F9F3F8582CEB6FE1CC7604601 /* Resources */,
+				348918BECDA6F1F22238FC43332B598A /* Headers */,
+				06998FDD4E3D246D20B4FE5C7FC16DEE /* Sources */,
+				266ACCF80C7D4D2E9B85542E8B383146 /* Frameworks */,
+				2117DC2A80F09B82553A4C009720796D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73054DB8EB4426728E4EB149B8EC3705 /* FERBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F859B30016A55F91DDBDFBF4790905A6 /* Build configuration list for PBXNativeTarget "FERBase" */;
+			buildPhases = (
+				C1E918566D1614FD33B6FA72CEDEDACB /* Headers */,
+				25EB433CED7E3CB655FC6AE536DFB194 /* Sources */,
+				84FCD4D1C4B383D2FEA32A443DA2B49F /* Frameworks */,
+				3752B67AEBFD57674B5A47D6D1B9A47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96C26769D900FEC73D41DD4D63DC41B8 /* PBXTargetDependency */,
 			);
 			name = FERBase;
 			productName = FERBase;
@@ -283,7 +486,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				000D774CDFD008A1B73F0908B595792A /* PBXTargetDependency */,
+				DA416481423C21CA2B79FA7811CF62E0 /* PBXTargetDependency */,
 			);
 			name = "Pods-FERBase_Tests";
 			productName = "Pods-FERBase_Tests";
@@ -292,17 +495,18 @@
 		};
 		86C270301FC61D2E544C4C484CBA4481 /* Pods-FERBase_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 779210333F0D60642CDD05E6D815D85B /* Build configuration list for PBXNativeTarget "Pods-FERBase_Example" */;
+			buildConfigurationList = 1A3B7D7DFE0DE03AF409C90D39587B4D /* Build configuration list for PBXNativeTarget "Pods-FERBase_Example" */;
 			buildPhases = (
-				F0EDEB050449BD7A296945D9318B30DE /* Headers */,
-				2DFEDDFF839C5F9A5F116F047809BC34 /* Sources */,
-				785F9B612F0D4F03041DDE14708ADC8F /* Frameworks */,
-				DD40D28DA2764CB1341A4F4B563D4AE0 /* Resources */,
+				0819D1853550B72A951C7A9CF693C4BA /* Headers */,
+				EE92F9E108EE2791BB7D3FCE25795095 /* Sources */,
+				C02CB5E401718DF073E5E3A4826BB22F /* Frameworks */,
+				B5EA6EF133119375E6896F04CD0E99F5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4929A2DCDDB6A8956F2148A21AA8116C /* PBXTargetDependency */,
+				8CAFA0E818F0DE0B7A3C282CFC064C4E /* PBXTargetDependency */,
+				7BC10B2B217456EDF2AB7ED03EC17DF7 /* PBXTargetDependency */,
 			);
 			name = "Pods-FERBase_Example";
 			productName = "Pods-FERBase_Example";
@@ -327,11 +531,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = EAA38A851482644CB5D6E15B9C29C513 /* Products */;
+			productRefGroup = 4C690AE9B909FF63841736D8B5990B35 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				73054DB8EB4426728E4EB149B8EC3705 /* FERBase */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				86C270301FC61D2E544C4C484CBA4481 /* Pods-FERBase_Example */,
 				836063014C671BB91F59E72EB629819E /* Pods-FERBase_Tests */,
 			);
@@ -339,15 +544,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9F760C3F9F3F8582CEB6FE1CC7604601 /* Resources */ = {
+		2117DC2A80F09B82553A4C009720796D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AB8789426BFB0EC002C8FEB /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD40D28DA2764CB1341A4F4B563D4AE0 /* Resources */ = {
+		3752B67AEBFD57674B5A47D6D1B9A47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EA6EF133119375E6896F04CD0E99F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,6 +575,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		06998FDD4E3D246D20B4FE5C7FC16DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB900C8DFD60B66A5D2DC6E97A6EC670 /* MASCompositeConstraint.m in Sources */,
+				2424A8B08D191DEDDC90A8D07617244A /* MASConstraint.m in Sources */,
+				DBF938BADE399F51C7922938D4438ADE /* MASConstraintMaker.m in Sources */,
+				CB7597E0988F7DDE4E7168A97CC7BD55 /* MASLayoutConstraint.m in Sources */,
+				2552547AFEC118B32A30BB7E3477E44F /* Masonry-dummy.m in Sources */,
+				7C61C9F6ED54FFD8A9602491C281A764 /* MASViewAttribute.m in Sources */,
+				943F723DB592089D68B59551FD597C42 /* MASViewConstraint.m in Sources */,
+				7086C396E4392A23FD5763D7F012D72C /* NSArray+MASAdditions.m in Sources */,
+				0200C2F9F2BBF8674C8A2C88AB2371CF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				14677D6232575006AE7E98F3A692CA46 /* View+MASAdditions.m in Sources */,
+				57E572B02E36678DBA33861737E67828 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1877C5D09CDB64F88F7A7E0973EF9951 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -372,45 +601,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DFEDDFF839C5F9A5F116F047809BC34 /* Sources */ = {
+		25EB433CED7E3CB655FC6AE536DFB194 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B5FDC17E0EEA7AB498C0DC8AAD7F7C9 /* Pods-FERBase_Example-dummy.m in Sources */,
+				B22CAEC890B236B2D3608DD1A07D3D06 /* FERBase-dummy.m in Sources */,
+				28DC8D7539FBADB114603E6358CB724D /* UtilTool.m in Sources */,
+				A965004AF5B08A548576B12435ABE1FF /* ViewButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BE83A1CFA06CF158BB8124B6E50FC43 /* Sources */ = {
+		EE92F9E108EE2791BB7D3FCE25795095 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52258EA2370C15C2D046D82A52E5B852 /* FERBase-dummy.m in Sources */,
+				620942ACC8563EABF6A74145EDE7197D /* Pods-FERBase_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		000D774CDFD008A1B73F0908B595792A /* PBXTargetDependency */ = {
+		7BC10B2B217456EDF2AB7ED03EC17DF7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-FERBase_Example";
-			target = 86C270301FC61D2E544C4C484CBA4481 /* Pods-FERBase_Example */;
-			targetProxy = A1D71ABA801420D673DA6CAEF29A5D55 /* PBXContainerItemProxy */;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 9F010B09FBC6305E0D01FACC3C1ED896 /* PBXContainerItemProxy */;
 		};
-		4929A2DCDDB6A8956F2148A21AA8116C /* PBXTargetDependency */ = {
+		8CAFA0E818F0DE0B7A3C282CFC064C4E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FERBase;
 			target = 73054DB8EB4426728E4EB149B8EC3705 /* FERBase */;
-			targetProxy = 012446B1BE33F550F307B6C9922F657C /* PBXContainerItemProxy */;
+			targetProxy = 850BCC3EC7F66623578B326D7AE190BA /* PBXContainerItemProxy */;
+		};
+		96C26769D900FEC73D41DD4D63DC41B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 9BC8FB5B61AEA0EEBB3AADE11AC61636 /* PBXContainerItemProxy */;
+		};
+		DA416481423C21CA2B79FA7811CF62E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FERBase_Example";
+			target = 86C270301FC61D2E544C4C484CBA4481 /* Pods-FERBase_Example */;
+			targetProxy = CEFE6B80B00AD78279D5DF3DDBE9E897 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F4A74E80AD64FA77E9B8FCB7834D453 /* Debug */ = {
+		18C84AEA5297116AA292DD48CBAF43C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5DBB3DF3405F0C3631EF06E05A7F28D /* Pods-FERBase_Example.debug.xcconfig */;
+			baseConfigurationReference = 62114968326538E170C4E072E58D9A30 /* FERBase.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -419,24 +661,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FERBase_Example/Pods-FERBase_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FERBase/FERBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FERBase/FERBase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FERBase_Example/Pods-FERBase_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/FERBase/FERBase.modulemap";
+				PRODUCT_MODULE_NAME = FERBase;
+				PRODUCT_NAME = FERBase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -504,9 +746,39 @@
 			};
 			name = Debug;
 		};
-		6F451F08E7C74E6B3845E2A4557AC372 /* Release */ = {
+		4C276944348486B51EA52AAE465995A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07C15A4CA7CA537B56CF627079B83AC2 /* FERBase.release.xcconfig */;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62CAD73A83C636CDF0FD5B166EE8E533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C2C12708E656457B7FF7342FA061CE /* FERBase.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -524,6 +796,36 @@
 				MODULEMAP_FILE = "Target Support Files/FERBase/FERBase.modulemap";
 				PRODUCT_MODULE_NAME = FERBase;
 				PRODUCT_NAME = FERBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86FB710BB1B8815D3088282300A57879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -567,69 +869,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		9D8CA9B732C22A4213B07C962F197431 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B05ED084F119D5BDA89CC5E179C5EB11 /* Pods-FERBase_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FERBase_Example/Pods-FERBase_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FERBase_Example/Pods-FERBase_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B8634DB32A1DDA68234EC957E7FD30AE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF46B148F2FD39B4F91897C00DB633C6 /* FERBase.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FERBase/FERBase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FERBase/FERBase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FERBase/FERBase.modulemap";
-				PRODUCT_MODULE_NAME = FERBase;
-				PRODUCT_NAME = FERBase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -686,11 +925,77 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		D81AE66A8381800ED461C2490A792A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B05ED084F119D5BDA89CC5E179C5EB11 /* Pods-FERBase_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FERBase_Example/Pods-FERBase_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FERBase_Example/Pods-FERBase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E46B46A39D570A5EE5F90BE4147C3737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5DBB3DF3405F0C3631EF06E05A7F28D /* Pods-FERBase_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FERBase_Example/Pods-FERBase_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FERBase_Example/Pods-FERBase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		ED35AF26867478FE034F7F8098116ADD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -727,11 +1032,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		405C7FD9043A15949E3AC8A482615A6E /* Build configuration list for PBXNativeTarget "FERBase" */ = {
+		1A3B7D7DFE0DE03AF409C90D39587B4D /* Build configuration list for PBXNativeTarget "Pods-FERBase_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8634DB32A1DDA68234EC957E7FD30AE /* Debug */,
-				6F451F08E7C74E6B3845E2A4557AC372 /* Release */,
+				E46B46A39D570A5EE5F90BE4147C3737 /* Debug */,
+				D81AE66A8381800ED461C2490A792A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F02D209ECECA442A04E04443A4183C0 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C276944348486B51EA52AAE465995A4 /* Debug */,
+				86FB710BB1B8815D3088282300A57879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -745,20 +1059,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		779210333F0D60642CDD05E6D815D85B /* Build configuration list for PBXNativeTarget "Pods-FERBase_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0F4A74E80AD64FA77E9B8FCB7834D453 /* Debug */,
-				9D8CA9B732C22A4213B07C962F197431 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		99CB5CE7F654D89E15D2E542978CD024 /* Build configuration list for PBXNativeTarget "Pods-FERBase_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED35AF26867478FE034F7F8098116ADD /* Debug */,
 				973261828B301599EF7DC2AFEAC85515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F859B30016A55F91DDBDFBF4790905A6 /* Build configuration list for PBXNativeTarget "FERBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CAD73A83C636CDF0FD5B166EE8E533 /* Debug */,
+				18C84AEA5297116AA292DD48CBAF43C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

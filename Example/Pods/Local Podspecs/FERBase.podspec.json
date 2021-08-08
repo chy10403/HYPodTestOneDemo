@@ -1,9 +1,9 @@
 {
   "name": "FERBase",
-  "version": "0.1.0",
-  "summary": "A short description of FERBase.",
+  "version": "1.0.1",
+  "summary": "A test project of FERBase.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/caihaiyang2/FERBase",
+  "homepage": "https://github.com/chy10403/HYPodTestOneDemo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "caihaiyang2": "caihaiyang2@gome.com.cn"
   },
   "source": {
-    "git": "https://github.com/caihaiyang2/FERBase.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/chy10403/HYPodTestOneDemo.git",
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "FERBase/Classes/**/*"
+  "source_files": "FERBase/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
 }

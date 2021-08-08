@@ -7,6 +7,7 @@
 //
 
 #import "CHYViewController.h"
+#import "ViewButton.h"
 
 @interface CHYViewController ()
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    ViewButton *btn = [[ViewButton alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
+    btn.backgroundColor = [UIColor grayColor];
+    [self.view addSubview:btn];
 }
 
 - (void)didReceiveMemoryWarning
