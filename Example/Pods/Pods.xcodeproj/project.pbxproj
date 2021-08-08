@@ -14,9 +14,10 @@
 		52258EA2370C15C2D046D82A52E5B852 /* FERBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA05BE92EA676A1182162CA5B6A1863 /* FERBase-dummy.m */; };
 		55FDFA482D350B59E3EC94B4826E4C4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		75B7E22CD5583B3521ADE5C8ADEC6D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7AB8785026BFA81C002C8FEB /* UtilTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB8784E26BFA81C002C8FEB /* UtilTool.h */; };
+		7AB8785126BFA81C002C8FEB /* UtilTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB8784F26BFA81C002C8FEB /* UtilTool.m */; };
 		8F2C2B5141BD00B45192B0A99283A4B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A19BA13B970661F24B01E6B7904BA7C9 /* Pods-FERBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A086F685275686E56B5F4D3BE4937CA /* Pods-FERBase_Tests-dummy.m */; };
-		ED16117811C7F641457551CCA16DC10E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B61EFFC53A9C6327F1A531755B013F /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,12 +46,13 @@
 		2EE6AED403C6EF6694377E7F35B3C584 /* Pods-FERBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FERBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		377FA04F4F45DE37CB97DAAC8BCDF157 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		382AF7F36BC9CE400FD111479411348A /* Pods_FERBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FERBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44B61EFFC53A9C6327F1A531755B013F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FERBase/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		463D88C8A0F87F9703C7A6B0CDE2A665 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		49167506983EB934342FBC009F14A6AD /* FERBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FERBase.modulemap; sourceTree = "<group>"; };
 		5A16E8E5C882807A061B957188D58F2F /* Pods_FERBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FERBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A086F685275686E56B5F4D3BE4937CA /* Pods-FERBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FERBase_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7AB8784E26BFA81C002C8FEB /* UtilTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilTool.h; sourceTree = "<group>"; };
+		7AB8784F26BFA81C002C8FEB /* UtilTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilTool.m; sourceTree = "<group>"; };
 		8D58A79468FA07D557B8DD8EA705969B /* Pods-FERBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FERBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		94C0CF42BD5AA6B4CE3CC8E98279A039 /* Pods-FERBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FERBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9C20F5B249103A8B83400E0F4C9DDD94 /* Pods-FERBase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FERBase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -154,9 +156,10 @@
 		7F5DE2887FEF7EE7FAC56F521607E1D6 /* FERBase */ = {
 			isa = PBXGroup;
 			children = (
-				44B61EFFC53A9C6327F1A531755B013F /* ReplaceMe.m */,
 				7C28EAA95A4DC202DA9150EABD805649 /* Pod */,
 				F47E5CA7D25457A0CFA51E35D922C7F1 /* Support Files */,
+				7AB8784E26BFA81C002C8FEB /* UtilTool.h */,
+				7AB8784F26BFA81C002C8FEB /* UtilTool.m */,
 			);
 			name = FERBase;
 			path = ../..;
@@ -230,6 +233,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB8785026BFA81C002C8FEB /* UtilTool.h in Headers */,
 				02CFAD25BDFB1CCC9FE37FCF69252F73 /* FERBase-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52258EA2370C15C2D046D82A52E5B852 /* FERBase-dummy.m in Sources */,
-				ED16117811C7F641457551CCA16DC10E /* ReplaceMe.m in Sources */,
+				7AB8785126BFA81C002C8FEB /* UtilTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
